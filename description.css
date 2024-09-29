@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.para{
+    border: black solid 1px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: x-small;
+    width: 90%;
+    margin: 20px 30px;
+}
+.box{
+    background-color: rgb(62, 48, 48);
+    border-radius: 5px;
+    width: 100px;
+    height: 150px;
+    position: relative;
+}
+.box1{
+display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+div{
+    background-color: rgb(31, 152, 24);
+    width: 60px;
+    height: 60px;
+    border-radius: 50px 0 50px 50px;
+    position: absolute;
+    left: 20px;
+    top:10px;
+    font-size: x-small;
+}
+strong{
+position: absolute;
+top: 20px;
+left: 5px;
+}
+div + p{
+ position: absolute;
+ top: 90px;
+ left: 21px;
+ font-size: small;   
+}
+p + a{
+    background-color: red;
+    border-radius: 5px;
+    width: 40px;
+    height: 15px;
+    font-size: small;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    text-align: center;
+    color: black;
+}
+img{
+ width: 80px;
+ height: 60px;
+ position: absolute;
+ top: 15px;
+ right: 10px; 
+}
+img + p{
+    position: absolute;
+    top: 90px;
+    left: 37px;
+    font-size: small;
+}
